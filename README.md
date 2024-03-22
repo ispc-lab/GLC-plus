@@ -1,9 +1,9 @@
 
-# [GLC++: Source-Free Universal Domain Adaptation through Global-Local Clustering and Contrastive Affinity Learning]()
+# [GLC++: Source-Free Universal Domain Adaptation through Global-Local Clustering and Contrastive Affinity Learning](https://arxiv.org/abs/2403.14410)
 
 
 ## Introduction
-This repository contains the code for the paper <a href="">GLC++ </a>, which is an substantial extention of our CVPR 2023 paper <a href="https://arxiv.org/abs/2303.07110">GLC</a>. Despite the simple global and local clustering (GLC) technique achieving commendable performance in separating "known" and "unknown" data, its reliance on pseudo-labeling supervision, especially using uniform encoding for all "unknown" data limits its capacity to discriminate among different "unknown" categories. To alleviate this, we promote GLC to GLC++ by developing a new contrastive affinity learning strategy, sidestepping the need for a specialized source model structure. Remarkably, in the most challenging open-partial-set scenarios on VisDA, GLC++ boosts up the H-score from 73.1% to 75.0%. GLC++ enhances the novel category clustering accuracy of GLC by 4.3% in open-set scenarios on Office-Home. Furthermore, the introduced contrastive learning strategy not only enhances GLC but also significantly facilitates existing methodologies.
+This repository contains the code for the paper <a href="https://arxiv.org/abs/2403.14410">GLC++ </a>, which is an substantial extention of our CVPR 2023 paper <a href="https://arxiv.org/abs/2303.07110">GLC</a>. Despite the simple global and local clustering (GLC) technique achieving commendable performance in separating "known" and "unknown" data, its reliance on pseudo-labeling supervision, especially using uniform encoding for all "unknown" data limits its capacity to discriminate among different "unknown" categories. To alleviate this, we promote GLC to GLC++ by developing a new contrastive affinity learning strategy, sidestepping the need for a specialized source model structure. Remarkably, in the most challenging open-partial-set scenarios on VisDA, GLC++ boosts up the H-score from 73.1% to 75.0%. GLC++ enhances the novel category clustering accuracy of GLC by 4.3% in open-set scenarios on Office-Home. Furthermore, the introduced contrastive learning strategy not only enhances GLC but also significantly facilitates existing methodologies.
 
 
 ## Framework
@@ -98,10 +98,10 @@ NOTE THAT GLC ONLY RELIES ON STANDARD CLOSED-SET MODEL!
 ## Citation
 If you find our codebase helpful, please star our project and cite our paper:
 ```
-@article{sanqing2024GLCPLUS,
+@article{sanqing2024GLC_PLUS,
   title={GLC++: Source-Free Universal Domain Adaptation through Global-Local Clustering and Contrastive Affinity Learning},
   author={Qu, Sanqing and Zou, Tianpei and Röhrbein, Florian and Lu, Cewu and Chen, Guang and Tao, Dacheng and Jiang, Changjun},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2403.14410},
   year={2024}
 }
 
